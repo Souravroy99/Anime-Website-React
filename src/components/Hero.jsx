@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
-import Button from "./Button";
+import Button from "./Button"; 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -128,7 +128,7 @@ const Hero = () => {
             src={getVideoSrc(
               currentIndex === totalVideos - 1 ? 1 : currentIndex
             )}
-            autoPlay
+            
             loop
             muted
             className="absolute left-0 top-0 size-full object-center object-cover"
